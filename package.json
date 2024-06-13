@@ -1,0 +1,47 @@
+{
+  "name": "fitsphere-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "cy:open": "cypress open"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/joy": "^5.0.0-beta.30",
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/material": "^5.15.17",
+    "@stomp/stompjs": "^7.0.0",
+    "axios": "^1.6.8",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.12.2",
+    "formik": "^2.4.6",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loading-skeleton": "^3.4.0",
+    "react-router-dom": "^6.22.3",
+    "recharts": "^2.12.7",
+    "uuid": "^9.0.1",
+    "vite-plugin-env-compatible": "^2.0.1",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "cypress": "^13.10.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.4"
+  }
+}
